@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#chatContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 223, 229);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+
+#chatMessages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e758ae;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-image:url(https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?t=st=1732172375~exp=1732175975~hmac=7df5bbdfe3a382a1e7320c75606e43956996fdd85713e7e4475d604c3c9a18d2&w=900);
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 70%;
+    clear: both;
+    
+}
+
+.sender1-message {
+
+    background-color: #f2aad6;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.sender2-message {
+    background-color: #f76bac;
+    float: right;
+    margin-left: 50px;
+    text-align: right;
+}
+
+.message-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
